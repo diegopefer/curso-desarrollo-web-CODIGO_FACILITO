@@ -28,14 +28,14 @@ cierres.forEach(function(cierre){
     // quitarle las clases de animacion
     content.classList.remove("fadeInDown");
     content.classList.remove("animated");
-    
+
     // agregar clases para animar su salida
     content.classList.add("animated");
     content.classList.add("fadeOutUp");
 
     //redireccionar a la pagina anterior
     setTimeout(function(){
-      location.href = "/";
+      location.href = "/boletines";
     },600); //1000 equivale a 1 seg. 1 seg = 1000 msg
 
     //setInterval igua que timeout pero las acciones se va a ejecutar cada segundo constantemente
