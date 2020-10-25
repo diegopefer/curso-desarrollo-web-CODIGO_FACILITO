@@ -35,7 +35,7 @@ cierres.forEach(function(cierre){
 
     //redireccionar a la pagina anterior
     setTimeout(function(){
-      location.href = "/boletines";
+      location.href = "/boletines/index";
     },600); //1000 equivale a 1 seg. 1 seg = 1000 msg
 
     //setInterval igua que timeout pero las acciones se va a ejecutar cada segundo constantemente
